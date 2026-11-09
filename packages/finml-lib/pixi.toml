@@ -1,0 +1,39 @@
+# ==================================================================================================
+#
+# Copyright (c) 2026 Ilya Snegov
+#
+# Dedicated to the public domain under the Creative Commons
+# CC0 1.0 Universal Public Domain Dedication (the "Dedication").
+# You may obtain a copy of the Dedication at
+#
+# https://creativecommons.org/publicdomain/zero/1.0/legalcode.en
+#
+# ==================================================================================================
+# packages/finml-lib/pixi.toml
+# ==================================================================================================
+
+[package]
+name = "finml-lib"
+version = "0.1.0"
+
+[package.build]
+backend = { name = "pixi-build-python", version = "*", channels = [
+    "https://prefix.dev/pixi-build-backends",
+    "https://prefix.dev/conda-forge",
+] }
+
+[package.host-dependencies]
+python = ">=3.14.8,<3.15"
+hatchling = ">=1.33.0,<2"
+
+[package.run-dependencies]
+pandas = ">=3.0.6,<4"
+numpy = ">=2.5.4,<3"
+ta-lib = ">=0.8.2,<0.9"
+jaxtyping = ">=0.3.11,<0.4"
+kagglehub = ">=1.0.2,<2"
+matplotlib = ">=3.11.2,<4"
+statsmodels = ">=0.15.0,<0.16"
+scipy = ">=1.18.1,<2"
+
+# ==================================================================================================

@@ -1,0 +1,40 @@
+# ==================================================================================================
+#
+# Copyright (c) 2026 Ilya Snegov
+#
+# Dedicated to the public domain under the Creative Commons
+# CC0 1.0 Universal Public Domain Dedication (the "Dedication").
+# You may obtain a copy of the Dedication at
+#
+# https://creativecommons.org/publicdomain/zero/1.0/legalcode.en
+#
+# ==================================================================================================
+# packages/finml-features/pyproject.toml
+# ==================================================================================================
+
+[project]
+name = "finml-features"
+version = "0.1.0"
+description = """
+A lightweight, standalone module designed to effortlessly generate 
+model-ready inputs by abstracting complex data transformations, enabling 
+quick interaction with models trained in the Financial Machine Learning 
+Laboratory without manual pipeline recreation.
+"""
+
+license = {text = "Apache-2.0"}
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/snegoviol/finml-lab"
+Documentation = "https://github.com/snegoviol/finml-lab#readme"
+Repository = "https://github.com/snegoviol/finml-lab/tree/main/packages/src/finml-features"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["./src/finml_features/"]
+
+# ==================================================================================================

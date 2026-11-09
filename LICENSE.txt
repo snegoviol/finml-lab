@@ -1,0 +1,38 @@
+Copyright (c) 2026 Ilya Snegov
+
+Each file in this project is licensed under one of the following licenses:
+
+- Apache License, Version 2.0 (LICENSES/Apache-2.0.txt),
+- Creative Commons CC0 1.0 Universal Public Domain Dedication (LICENSES/CC0-1.0.txt).
+
+The files in this project are divided into two categories: those that bear a
+header comment and those that do not.
+
+Files with a header comment
+---------------------------
+
+The license that applies to a file with a header comment is stated in that
+header comment. Users are advised to consult the header comment of a file
+before using it. Unless a header comment provides otherwise, the following
+general principles apply:
+
+- Source code is licensed under the Apache License, Version 2.0.
+- Project documentation, auxiliary files (such as `.toml` files), and source
+  files that contain so little code that they are unlikely to be protected by
+  copyright are dedicated to the public domain under the Creative Commons CC0
+  1.0 Universal Public Domain Dedication.
+
+Files without a header comment
+------------------------------
+
+The license that applies to a file without a header comment is determined by
+the type or origin of that file. The following rules apply:
+
+- Files that are entirely managed by tools (such as `pixi.lock`) are not
+  intended to be edited manually and therefore bear no header comment. To the
+  extent that any rights subsist in such files, they are dedicated to the
+  public domain under the Creative Commons CC0 1.0 Universal Public Domain
+  Dedication.
+- Any other file that does not bear a header comment is dedicated to the
+  public domain under the Creative Commons CC0 1.0 Universal Public Domain
+  Dedication.
