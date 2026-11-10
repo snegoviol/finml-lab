@@ -60,21 +60,21 @@ The project implements a Gradient Boosting Decision Tree (GBDT) regressor for fo
 
 The practical implementation and empirical development of the model described above are detailed in a sequential series of Jupyter notebooks. Each notebook represents a distinct phase in the machine learning lifecycle, progressing from raw data ingestion to final out-of-sample evaluation.
 
-- To perform exploratory data analysis, engineer the target variable,  
-and inspect data quality from raw cryptocurrency OHLCV data, see  
-    [01-exploratory-data-analysis.ipynb](../notebooks/01-exploratory-data-analysis.ipynb).
+For each phase, both the raw source code (located in the local repository) and a pre-rendered version (with static outputs, plots, and tables saved) are provided.
 
-- To generate technical indicators using TA-Lib, create temporal features,  
-and perform feature selection from preprocessed cryptocurrency OHLCV data, see  
-    [02-feature-engineering.ipynb](../notebooks/02-feature-engineering.ipynb).
+> **Important Note on Rendering:**  
+> While the provided GitHub Gists contain saved outputs for quick review, please be aware of two rendering limitations specific to this platform:  
+> 1. **Visual Formatting:**  
+Minor visual differences may occur between the GitHub Gist rendering and how the notebook appears in the local development environment.  
+> 2. **Interactive Visualizations:**  
+GitHub Gist does not support interactive `plotly` graphs. Consequently, the output for these specific cells is entirely omitted in the rendered view, whereas all other cell outputs are fully preserved. To view these visualizations, the notebook must be executed locally.
 
-- To train an XGBoost regressor and perform hyperparameter optimization  
-via Optuna on the training and validation datasets, see  
-    [03-model-development.ipynb](../notebooks/03-model-development.ipynb).
-
-- To evaluate the final model performance on the unseen holdout test dataset,  
-including metric calculation, prediction visualization, and feature importance analysis, see  
-    [04-model-evaluation.ipynb](../notebooks/04-model-evaluation.ipynb).
+| Phase & Objective | Source Code | Rendered Output |
+| :--- | :--- | :--- |
+| **01. Exploratory Data Analysis**<br>To perform EDA, engineer the target variable, and inspect data quality from raw OHLCV data. | [Local Notebook](../notebooks/01-exploratory-data-analysis.ipynb) | [GitHub Gist](https://gist.github.com/snegoviol/9c903f31ffaed21399e4477bfaa174e1) |
+| **02. Feature Engineering**<br>To generate TA-Lib technical indicators, create temporal features, and perform feature selection. | [Local Notebook](../notebooks/02-feature-engineering.ipynb) | [GitHub Gist](https://gist.github.com/snegoviol/edc14844e68ce3ce4163295305cfa35b) |
+| **03. Model Development**<br>To train the XGBoost regressor and perform hyperparameter optimization via Optuna. | [Local Notebook](../notebooks/03-model-development.ipynb) | [GitHub Gist](https://gist.github.com/snegoviol/aa37eb81b1a3381c0dcd9a4e86252607) |
+| **04. Model Evaluation**<br>To evaluate final performance on the holdout test set, including metrics, visualization, and feature importance. | [Local Notebook](../notebooks/04-model-evaluation.ipynb) | [GitHub Gist](https://gist.github.com/snegoviol/40e106a101f478fef607b1ad87b5de98) |
 
 <!--    
     ================================================================================================

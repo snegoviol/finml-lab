@@ -134,11 +134,14 @@ configuration.
 
 Once the Pixi environment is installed, you can:
 - navigate to the `notebooks/` directory,
-- execute the Jupyter notebooks sequentially (from `01` to `04`),
-- reproduce the end-to-end machine learning pipeline,
+- launch the notebooks in your preferred environment (e.g., JupyterLab, VS Code, or via CLI),
+- execute them sequentially (from `01` to `04`) to reproduce the end-to-end machine learning pipeline,
 - design and execute your own custom experiments,
 
 — all dependencies, Python paths, and environment variables are already configured by Pixi.
+
+> **Want more details?**  
+> For a comprehensive breakdown of each notebook's objectives, rendering notes, and direct links to pre-rendered outputs, see the [Notebooks Overview](./docs/README.md#ii-notebooks-overview) section in the documentation.
 
 <!--    
     ================================================================================================
