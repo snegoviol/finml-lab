@@ -28,7 +28,7 @@ dependencies = []
 [project.urls]
 Homepage = "https://github.com/snegoviol/finml-lab"
 Documentation = "https://github.com/snegoviol/finml-lab#readme"
-Repository = "https://github.com/snegoviol/finml-lab/tree/main/packages/src/finml-features"
+Repository = "https://github.com/snegoviol/finml-lab/tree/main/packages/finml-features"
 
 [build-system]
 requires = ["hatchling"]
